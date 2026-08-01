@@ -1,8 +1,27 @@
 aid: smart-diagnostics-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smart-diagnostics-systems.png
 name: Smart Diagnostics Systems
-description: Smart Diagnostics Systems is a company surfaced as a portfolio company of techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Smart Diagnostics Systems (SDS) is a food-safety diagnostics company based in
+  Columbia, Missouri, founded in 2016 and backed by Techstars. SDS builds the
+  PathoMeter, a state-of-the-art rapid diagnostic system for the detection of
+  foodborne pathogens such as E. coli, Listeria, and Salmonella, helping food
+  processors and companies protect consumers from foodborne illness. The company
+  operates as a hardware and laboratory diagnostics business; as of this
+  enrichment pass it publishes no public developer API, SDK, or developer portal.
+  This API Evangelist profile tracks the company for API-surface discovery and is
+  re-evaluated on each enrichment run.
 url: https://raw.githubusercontent.com/api-evangelist/smart-diagnostics-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Food Safety
+- Diagnostics
+- Pathogen Detection
+- Biotechnology
+- Health Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/smart-diagnostics-systems-domain-security.yml
+- type: LLMsTxt
+  url: llms/smart-diagnostics-systems-llms.txt
 - type: Website
-  url: https://alden.tech/
+  url: https://smartdiagnosticssystems.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
